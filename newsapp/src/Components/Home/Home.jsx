@@ -1,12 +1,18 @@
 import React, { Component } from "react";
-import FormLogin from '../FormLogin/FormLogin'
+
+import FormLogin from "../FormLogin/FormLogin";
 
 class Home extends Component {
+  
+
   render() {
-    return <>
-              <p>Soy home, registrate</p>
-              <FormLogin/>
-          </>
+    return (
+      <div>
+        <p>Soy home, registrate</p>
+
+        <FormLogin/>
+      </div>
+    );
   }
 }
 
