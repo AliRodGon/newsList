@@ -18,12 +18,12 @@ handleSubmit = event => {
   const name = this.name.current.value   
   const { user, login } = this.context
   login(name);
-console.log(this.context.user)
+console.log(name)
 };
 
   render() {
     return <div>
-                  <h2>Hola {this.context.user}</h2>
+                  
                   <form onSubmit={this.handleSubmit}>
                     <label htmlFor="name">Nombre:  </label>
                     <input type="text" id="name" name="name" ref={this.name}/>

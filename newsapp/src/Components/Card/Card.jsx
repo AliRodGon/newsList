@@ -7,7 +7,7 @@ class Card extends Component {
         return (
           <div>
             <p>{this.props.description}</p>
-            <p>{this.props.body}</p>
+        
               <button onClick={this.props.delete}>Borrar noticia</button>
           </div>
         );

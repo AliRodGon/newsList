@@ -1,0 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+p {
+    font-family: 'Courier New', Courier, monospace
+}
+.container {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(87, 86, 86);
+    border-radius: 15px;
+    margin: 2rem
+} */

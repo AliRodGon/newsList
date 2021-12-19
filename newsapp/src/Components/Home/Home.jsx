@@ -8,8 +8,6 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <p>Soy home, registrate</p>
-
         <FormLogin/>
       </div>
     );
