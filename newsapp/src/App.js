@@ -21,7 +21,7 @@ import Footer from './Components/Footer'
 
  login=(name)=>this.setState({ user: name })
 
-  // logout=()=>this.setState({user:''})
+logout=()=>this.setState({user:''})
 
   render() {
 
